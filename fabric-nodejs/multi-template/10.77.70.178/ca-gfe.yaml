@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+  ca.fabric.gfe.com:
+    image: hyperledger/fabric-ca
+    environment:
+      - FABRIC_CA_HOME=/etc/hyperledger/fabric-ca-server
+      - FABRIC_CA_SERVER_CA_NAME=ca-gfe
+      - FABRIC_CA_SERVER_CA_CERTFILE=/etc/hyperledger/fabric-ca-server-config/ca.fabric.gfe.com-cert.pem
+      - FABRIC_CA_SERVER_CA_KEYFILE=/etc/hyperledger/fabric-ca-server-config/f9e7f8ad7dc8e515ec90132f84c0eb629b676b74108b9adab50307e31b0b0986_sk
+      - FABRIC_CA_SERVER_TLS_ENABLED=true
+      - FABRIC_CA_SERVER_TLS_CERTFILE=/etc/hyperledger/fabric-ca-server-config/ca.fabric.gfe.com-cert.pem
+      - FABRIC_CA_SERVER_TLS_KEYFILE=/etc/hyperledger/fabric-ca-server-config/f9e7f8ad7dc8e515ec90132f84c0eb629b676b74108b9adab50307e31b0b0986_sk
+    ports:
+      - "7054:7054"
+    command: sh -c 'fabric-ca-server start -b admin:adminpw -d'
+    volumes:
+      - ./channel/crypto-config/peerOrganizations/fabric.gfe.com/ca/:/etc/hyperledger/fabric-ca-server-config
+    container_name: ca_gfe
+

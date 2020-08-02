@@ -1,0 +1,9 @@
+docker ps -a
+sudo docker inspect b864e6a07573
+sudo docker inspect af3293d4de20 
+MergedDir
+docker exec -it b864e6a07573 bash
+docker cp /home/puweiwang/SCASverify/artifacts/src/github.com/business/fsm/f04024d4.json b864e6a07573:/fsm
+
+/var/lib/docker/devicemapper/mnt/1efe40ca16c639a9e67d8cd4a255a76e37f3e34c02837a934614134138c5b73d/rootfs/fsm
+

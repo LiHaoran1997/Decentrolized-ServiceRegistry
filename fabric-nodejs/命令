@@ -1,0 +1,26 @@
+/nacos/distribution/target/nacos-server-1.2.0-SNAPSHOT/nacos	
+cd /home/centos/go/hyperledger/SCAS/nacos-scripts/nacos-docker
+cd /home/centos/go/hyperledger/SCAS/artifacts
+docker-compose -f docker-compose-nacos-3.yml up -d
+
+docker-compose -f orderer-dbiir.yaml up -d
+docker-compose -f orderer-dbiir.yaml down
+docker-compose -f orderer-deke.yaml up -d
+docker-compose -f orderer-deke.yaml down
+docker-compose -f orderer-gfe.yaml up -d
+docker-compose -f orderer-gfe.yaml down
+
+docker-compose -f peer0-deke.yaml up -d
+docker-compose -f peer0-deke.yaml down
+docker-compose -f peer1-deke.yaml up -d
+docker-compose -f peer1-deke.yaml down
+docker-compose -f peer0-gfe.yaml up -d
+docker-compose -f peer0-gfe.yaml down
+docker-compose -f peer1-gfe.yaml up -d
+docker-compose -f peer1-gfe.yaml down
+
+docker-compose -f ca-deke.yaml down
+docker-compose -f ca-deke.yaml up -d
+docker-compose -f ca-gfe.yaml down
+docker-compose -f ca-gfe.yaml up -dcd /home/centos/go/hyperledger/SCAS/nacos-scripts/nacos-docker
+du -h --max-depth=1

@@ -1,0 +1,69 @@
+{
+	"requester": "Tim",
+	"timeout": "3000",
+	"ticket-airline":{
+			"description": "000",
+			"round": [
+				[
+					{"request": "request1", "info": ["3.0", "100", "15"]},
+				  {"request": "request2", "info": ["2.0", "200", "30"]},
+				  {"request": "request3", "info": ["1.8", "180", "20"]},
+				  {"request": "request4", "info": ["1.5", "220", "40"]},
+				  {"request": "request5", "info": ["1.5", "300", "60"]},
+				  {"request": "request6", "info": ["1.0", "400", "80"]}
+			 ],
+			 [
+				  {"request": "request1", "info": ["1.0", "100", "15"]},
+				  {"request": "request2", "info": ["1.5", "150", "30"]}
+			 ]
+		 ]
+	 },
+	 "hotel":{
+		 "description": "000",
+		 "round": [
+			 [
+				 {"request": "request1", "info": ["1.0", "100", "15"]},
+				 {"request": "request2", "info": ["2.0", "200", "60"]},
+				 {"request": "request3", "info": ["1.8", "180", "18"]},
+				 {"request": "request4", "info": ["1.7", "170", "17"]},
+				 {"request": "request5", "info": ["1.6", "160", "16"]}
+			],
+			[
+				 {"request": "request1", "info": ["1.0", "100", "15"]},
+			   {"request": "request2", "info": ["1.5", "150", "30"]}
+			]
+		]
+	},
+	"rent-car":{
+		"description": "000",
+		"round": [
+			[
+				{"request": "request1", "info": ["1.0", "100", "15"]},
+				{"request": "request2", "info": ["2.0", "200", "60"]},
+				{"request": "request3", "info": ["1.8", "180", "18"]},
+				{"request": "request4", "info": ["1.7", "170", "17"]},
+				{"request": "request5", "info": ["1.6", "160", "16"]}
+		 ],
+		 [
+				{"request": "request1", "info": ["1.0", "100", "15"]},
+				{"request": "request2", "info": ["1.5", "150", "30"]}
+		 ]
+	 ]
+	},
+	"scenic-spot":{
+		"description": "000",
+		"round": [
+			[
+				{"request": "request1", "info": ["1.0", "100", "15"]},
+				{"request": "request2", "info": ["2.0", "200", "60"]},
+				{"request": "request3", "info": ["1.8", "180", "18"]},
+				{"request": "request4", "info": ["1.7", "170", "17"]},
+				{"request": "request5", "info": ["1.6", "160", "16"]}
+		 ],
+		 [
+				{"request": "request1", "info": ["1.0", "100", "15"]},
+				{"request": "request2", "info": ["1.5", "150", "30"]}
+		 ]
+	 ]
+	}
+}

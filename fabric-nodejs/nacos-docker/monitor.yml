@@ -1,0 +1,30 @@
+version: '2'
+services:
+  monitor1-10:
+    image: registry.cn-hangzhou.aliyuncs.com/nacos-fabric/monitor:test-part-1.0.10
+    environment:
+      SERVER_PORT: '5001'
+    network_mode: host
+    extra_hosts:
+    - puwei-1.novalocal:10.77.70.173
+    - puwei-2.novalocal:10.77.70.174
+    - puwei-3.novalocal:10.77.70.175
+    - puwei-4.novalocal:10.77.70.176
+    - puwei-5.novalocal:10.77.70.177
+    - puwei-6.novalocal:10.77.70.178
+    - puwei-7.novalocal:10.77.70.179
+    - puwei-8.novalocal:10.77.70.180
+    - puwei-9.novalocal:10.77.70.181
+    - puwei-10.novalocal:10.77.70.182
+    - puwei-11.novalocal:10.77.70.183
+    - puwei-12.novalocal:10.77.70.184
+    - puwei-13.novalocal:10.77.70.185
+    - puwei-14.novalocal:10.77.70.186
+    - puwei-15.novalocal:10.77.70.187
+    ports:
+    - 5001:5001/tcp
+    labels:
+      io.rancher.container.pull_image: always
+      io.rancher.scheduler.affinity:host_label_ne: nacos=yes,hasproblem=yes
+      io.rancher.scheduler.global: 'true'
+

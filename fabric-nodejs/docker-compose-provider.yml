@@ -1,0 +1,10 @@
+version: '2'
+services:
+  provider1:
+    image: modriclee/provider:latest
+    container_name: provider
+    restart: always
+    ports:
+      - "8081:8081"
+
+

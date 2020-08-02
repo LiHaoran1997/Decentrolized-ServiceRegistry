@@ -1,0 +1,90 @@
+[2019-12-02 12:19:59.003] [INFO] SampleWebApp - ****************** SERVER STARTED ************************
+[2019-12-02 12:19:59.019] [INFO] SampleWebApp - ***************  http://localhost:4000  ******************
+[2019-12-02 12:19:59.973] [INFO] SampleWebApp - app started!
+[2019-12-02 12:31:30.260] [INFO] Helper - User admin_cc_gfe was not enrolled, so we will need an admin user object to register
+[2019-12-02 12:31:30.843] [INFO] Helper - User admin_cc_deke was not enrolled, so we will need an admin user object to register
+[2019-12-02 12:31:34.320] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< C R E A T E  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-12-02 12:31:34.372] [ERROR] Create-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (2192 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-12-02 12:35:23.821] [INFO] Helper - Successfully loaded member from persistence
+[2019-12-02 12:35:23.854] [INFO] Helper - Successfully loaded member from persistence
+[2019-12-02 12:35:26.882] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< C R E A T E  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-12-02 12:35:26.945] [ERROR] Create-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (2190 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-12-02 12:35:37.344] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< J O I N  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-12-02 12:35:37.344] [INFO] Join-Channel - Calling peers in organization "Gfe" to join the channel
+[2019-12-02 12:35:37.374] [ERROR] Join-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1016 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-12-02 12:35:37.374] [ERROR] Join-Channel - Failed to join all peers to channel. cause:Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1016 vs. 15)
+[2019-12-02 12:39:29.920] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< J O I N  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-12-02 12:39:29.921] [INFO] Join-Channel - Calling peers in organization "Gfe" to join the channel
+[2019-12-02 12:39:29.947] [ERROR] Join-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1016 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-12-02 12:39:29.947] [ERROR] Join-Channel - Failed to join all peers to channel. cause:Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1016 vs. 15)
+[2019-12-02 12:39:37.367] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< J O I N  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-12-02 12:39:37.367] [INFO] Join-Channel - Calling peers in organization "Deke" to join the channel
+[2019-12-02 12:39:37.400] [ERROR] Join-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1018 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-12-02 12:39:37.400] [ERROR] Join-Channel - Failed to join all peers to channel. cause:Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1018 vs. 15)
+[2019-12-02 12:43:29.943] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< J O I N  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-12-02 12:43:29.943] [INFO] Join-Channel - Calling peers in organization "Deke" to join the channel
+[2019-12-02 12:43:29.977] [ERROR] Join-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1017 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-12-02 12:43:29.977] [ERROR] Join-Channel - Failed to join all peers to channel. cause:Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (1017 vs. 15)
+[2019-12-02 12:43:37.389] [INFO] Install-Chaincode - Calling peers in organization "Gfe" to join the channel
+[2019-12-02 12:43:37.486] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.487] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.487] [INFO] Install-Chaincode - Successfully sent install Proposal and received ProposalResponse
+[2019-12-02 12:43:37.487] [INFO] Install-Chaincode - Successfully install chaincode
+[2019-12-02 12:43:37.502] [INFO] Install-Chaincode - Calling peers in organization "Gfe" to join the channel
+[2019-12-02 12:43:37.542] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.542] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.542] [INFO] Install-Chaincode - Successfully sent install Proposal and received ProposalResponse
+[2019-12-02 12:43:37.542] [INFO] Install-Chaincode - Successfully install chaincode
+[2019-12-02 12:43:37.556] [INFO] Install-Chaincode - Calling peers in organization "Deke" to join the channel
+[2019-12-02 12:43:37.595] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.596] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.596] [INFO] Install-Chaincode - Successfully sent install Proposal and received ProposalResponse
+[2019-12-02 12:43:37.596] [INFO] Install-Chaincode - Successfully install chaincode
+[2019-12-02 12:43:37.610] [INFO] Install-Chaincode - Calling peers in organization "Deke" to join the channel
+[2019-12-02 12:43:37.641] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.641] [INFO] Install-Chaincode - install proposal was good
+[2019-12-02 12:43:37.641] [INFO] Install-Chaincode - Successfully sent install Proposal and received ProposalResponse
+[2019-12-02 12:43:37.641] [INFO] Install-Chaincode - Successfully install chaincode
+[2019-12-02 12:43:37.683] [ERROR] Instantiate-Chaincode - instantiate proposal was bad
+[2019-12-02 12:43:37.683] [ERROR] Instantiate-Chaincode - Failed to instantiate. cause:Failed to send Proposal and receive all good ProposalResponse
+[2019-12-02 12:47:29.967] [INFO] Install-Chaincode - Calling peers in organization "Gfe" to join the channel
+[2019-12-02 12:47:30.001] [ERROR] Install-Chaincode - TypeError: proposalResponses.toJSON is not a function
+    at Object.installChaincode (/home/lhr/SCAS/app/install-chaincode.js:63:66)
+    at <anonymous>
+[2019-12-02 12:47:30.001] [ERROR] Install-Chaincode - Failed to install due to:TypeError: proposalResponses.toJSON is not a function
+[2019-12-02 12:47:37.703] [ERROR] Instantiate-Chaincode - instantiate proposal was bad
+[2019-12-02 12:47:37.704] [ERROR] Instantiate-Chaincode - Failed to instantiate. cause:Failed to send Proposal and receive all good ProposalResponse
+[2019-12-02 12:51:29.981] [INFO] Install-Chaincode - Calling peers in organization "Gfe" to join the channel
+[2019-12-02 12:51:30.014] [ERROR] Install-Chaincode - TypeError: proposalResponses.toJSON is not a function
+    at Object.installChaincode (/home/lhr/SCAS/app/install-chaincode.js:63:66)
+    at <anonymous>
+[2019-12-02 12:51:30.014] [ERROR] Install-Chaincode - Failed to install due to:TypeError: proposalResponses.toJSON is not a function
+[2019-12-02 13:58:22.435] [INFO] SampleWebApp - ****************** SERVER STARTED ************************
+[2019-12-02 13:58:22.437] [INFO] SampleWebApp - ***************  http://localhost:4000  ******************
+[2019-12-02 14:00:47.557] [INFO] SampleWebApp - ****************** SERVER STARTED ************************
+[2019-12-02 14:00:47.561] [INFO] SampleWebApp - ***************  http://localhost:4000  ******************
+[2019-12-02 14:00:48.024] [INFO] SampleWebApp - app started!

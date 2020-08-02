@@ -1,0 +1,63 @@
+cd /home/centos/go/hyperledger/SCAS/artifacts
+
+
+docker-compose -f zookeeper0.yaml up -d
+docker-compose -f zookeeper1.yaml up -d
+docker-compose -f zookeeper2.yaml up -d
+
+docker-compose -f kafka0.yaml up -d
+docker-compose -f kafka1.yaml up -d
+docker-compose -f kafka2.yaml up -d
+docker-compose -f kafka3.yaml up -d
+
+docker-compose -f orderer-dbiir.yaml up -d
+docker-compose -f orderer-deke.yaml up -d
+docker-compose -f orderer-gfe.yaml up -d
+
+
+#启动peer0
+docker-compose -f peer0-gfe.yaml up -d 
+
+#启动peer1
+docker-compose -f peer1-gfe.yaml up -d 
+
+#启动peer2
+docker-compose -f peer0-deke.yaml up -d 
+
+#启动peer3
+docker-compose -f peer1-deke.yaml up -d 
+
+
+ca:
+docker-compose -f ca-deke.yaml up -d
+docker-compose -f ca-gfe.yaml up -d
+
+
+
+
+docker-compose -f zookeeper0.yaml down 
+docker-compose -f zookeeper1.yaml down 
+docker-compose -f zookeeper2.yaml down 
+
+docker-compose -f kafka0.yaml down 
+docker-compose -f kafka1.yaml down 
+docker-compose -f kafka2.yaml down 
+docker-compose -f kafka3.yaml down 
+
+docker-compose -f orderer-dbiir.yaml down 
+docker-compose -f orderer-deke.yaml down 
+docker-compose -f orderer-gfe.yaml down 
+
+
+#启动peer0
+docker-compose -f peer0-gfe.yaml down  
+
+#启动peer1
+docker-compose -f peer1-gfe.yaml down  
+
+#启动peer2
+docker-compose -f peer0-deke.yaml down  
+
+#启动peer3
+docker-compose -f peer1-deke.yaml down  
+

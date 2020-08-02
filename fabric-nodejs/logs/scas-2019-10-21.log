@@ -1,0 +1,55 @@
+[2019-10-21 10:13:20.749] [INFO] SampleWebApp - ****************** SERVER STARTED ************************
+[2019-10-21 10:13:20.752] [INFO] SampleWebApp - ***************  http://localhost:4000  ******************
+[2019-10-21 10:13:21.247] [INFO] SampleWebApp - app started!
+[2019-10-21 10:14:13.444] [INFO] Helper - User admin_cc_gfe was not enrolled, so we will need an admin user object to register
+[2019-10-21 10:14:14.037] [INFO] Helper - User admin_cc_deke was not enrolled, so we will need an admin user object to register
+[2019-10-21 10:14:17.506] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< C R E A T E  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-10-21 10:14:20.613] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< J O I N  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-10-21 10:14:20.614] [INFO] Join-Channel - Calling peers in organization "Gfe" to join the channel
+[2019-10-21 10:14:20.700] [ERROR] Join-Channel - Problem setting up the event hub :Error: 14 UNAVAILABLE: Connect Failed
+[2019-10-21 10:14:20.704] [ERROR] Join-Channel - Error: Problem setting up the event hub :Error: 14 UNAVAILABLE: Connect Failed
+    at eh.registerBlockEvent (/home/lhr/SCAS/app/join-channel.js:85:13)
+    at closer (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:441:5)
+    at EventHub._closeAllCallbacks (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:446:3)
+    at EventHub._disconnect (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:387:8)
+    at ClientDuplexStream.<anonymous> (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:358:10)
+    at emitOne (events.js:116:13)
+    at ClientDuplexStream.emit (events.js:211:7)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:271:12)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-10-21 10:14:20.704] [ERROR] Join-Channel - Problem setting up the event hub :Error: EventHub has been shutdown
+[2019-10-21 10:14:20.713] [ERROR] Join-Channel - Failed to join all peers to channel. cause:Error: Problem setting up the event hub :Error: 14 UNAVAILABLE: Connect Failed
+[2019-10-21 15:44:30.125] [INFO] SampleWebApp - ****************** SERVER STARTED ************************
+[2019-10-21 15:44:30.130] [INFO] SampleWebApp - ***************  http://localhost:4000  ******************
+[2019-10-21 15:44:30.637] [INFO] SampleWebApp - app started!
+[2019-10-21 15:44:47.320] [INFO] Helper - User admin_cc_gfe was not enrolled, so we will need an admin user object to register
+[2019-10-21 15:44:47.888] [INFO] Helper - User admin_cc_deke was not enrolled, so we will need an admin user object to register
+[2019-10-21 15:44:51.344] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< C R E A T E  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-10-21 15:44:54.459] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< J O I N  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-10-21 15:44:54.460] [INFO] Join-Channel - Calling peers in organization "Gfe" to join the channel
+[2019-10-21 15:44:54.537] [ERROR] Join-Channel - Problem setting up the event hub :Error: 14 UNAVAILABLE: Connect Failed
+[2019-10-21 15:44:54.542] [ERROR] Join-Channel - Error: Problem setting up the event hub :Error: 14 UNAVAILABLE: Connect Failed
+    at eh.registerBlockEvent (/home/lhr/SCAS/app/join-channel.js:85:13)
+    at closer (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:441:5)
+    at EventHub._closeAllCallbacks (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:446:3)
+    at EventHub._disconnect (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:387:8)
+    at ClientDuplexStream.<anonymous> (/home/lhr/SCAS/node_modules/fabric-client/lib/EventHub.js:358:10)
+    at emitOne (events.js:116:13)
+    at ClientDuplexStream.emit (events.js:211:7)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:271:12)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)
+[2019-10-21 15:44:54.543] [ERROR] Join-Channel - Problem setting up the event hub :Error: EventHub has been shutdown
+[2019-10-21 15:44:54.547] [ERROR] Join-Channel - Failed to join all peers to channel. cause:Error: Problem setting up the event hub :Error: 14 UNAVAILABLE: Connect Failed
+[2019-10-21 16:07:13.480] [INFO] SampleWebApp - ****************** SERVER STARTED ************************
+[2019-10-21 16:07:13.483] [INFO] SampleWebApp - ***************  http://localhost:4000  ******************
+[2019-10-21 16:07:14.001] [INFO] SampleWebApp - app started!
+[2019-10-21 16:07:40.092] [INFO] Helper - User admin_cc_gfe was not enrolled, so we will need an admin user object to register
+[2019-10-21 16:07:40.677] [INFO] Helper - User admin_cc_deke was not enrolled, so we will need an admin user object to register
+[2019-10-21 16:07:44.125] [INFO] SampleWebApp - <<<<<<<<<<<<<<<<< C R E A T E  C H A N N E L >>>>>>>>>>>>>>>>>
+[2019-10-21 16:07:44.179] [ERROR] Create-Channel - Error: 8 RESOURCE_EXHAUSTED: Sent message larger than max (2191 vs. 15)
+    at createStatusError (/home/lhr/SCAS/node_modules/grpc/src/client.js:64:15)
+    at ClientDuplexStream._emitStatusIfDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:270:19)
+    at ClientDuplexStream._readsDone (/home/lhr/SCAS/node_modules/grpc/src/client.js:236:8)
+    at readCallback (/home/lhr/SCAS/node_modules/grpc/src/client.js:296:12)

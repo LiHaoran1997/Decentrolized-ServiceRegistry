@@ -1,0 +1,13 @@
+sed -i "s/\r//" channel.sh
+sed -i "s/\r//" install.sh
+root@:
+安装EPEL源：
+yum install epel-release
+
+安装完EPEL源后，可以查看下jq包是否存在：
+yum list jq
+
+安装jq：
+yum install jq
+
+

@@ -1,0 +1,31 @@
+{
+   "host":"localhost",
+   "port":"4000",
+   "jwt_expiretime": "15552000",
+   "channels":[
+     {"name":"softwarechannel"}
+   ],
+   "softwarechannel": {
+     "configPath":"../artifacts/channel/softwarechannel.tx",
+     "orgs": {
+       "Gfe":[
+         {"peer":"peer0.fabric.gfe.com"},
+         {"peer":"peer1.fabric.gfe.com"}
+       ],
+       "Deke":[
+         {"peer":"peer0.fabric.deke.com"},
+         {"peer":"peer0.fabric.deke.com"}
+       ]
+     }
+   },
+   "CC_SRC_PATH":"../artifacts",
+   "chaincodeName":"task",
+   "eventWaitTime":"30000",
+   "admins":[
+      {
+         "username":"admin",
+         "secret":"adminpw",
+         "orgname":"Gfe"
+      }
+   ]
+}
