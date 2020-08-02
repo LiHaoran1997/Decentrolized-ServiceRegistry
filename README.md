@@ -6,9 +6,11 @@
 
 架构设计
 
-![nacos-1]([https://github.com/modriclee/Decentrolized-ServiceRegistry/blob/master/nacos-%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg](https://github.com/modriclee/Decentrolized-ServiceRegistry/blob/master/nacos-架构图.jpg))
+![nacos-1](https://github.com/modriclee/Decentrolized-ServiceRegistry/blob/master/nacos-架构图.jpg?raw=true)
 
-![nacos-2]([https://github.com/modriclee/Decentrolized-ServiceRegistry/blob/master/nacos-%E6%9E%B6%E6%9E%84%E5%9B%BE2.jpg](https://github.com/modriclee/Decentrolized-ServiceRegistry/blob/master/nacos-架构图2.jpg))
+![nacos-2](https://github.com/modriclee/Decentrolized-ServiceRegistry/blob/master/nacos-架构图2.jpg?raw=true)
+
+服务监控见Decentrolized-monitor仓库
 
 运行方法
 1.安装Hyperledger fabric 1.1版本
